@@ -158,9 +158,9 @@ for (let i = 1; i <= rows; ++i) {
   }
   document.write("<br>");
 }
-//اس الارقام الفرديه
+//الاعداد الزوجيه
 for (let i = 1; i <= 25; i++) {
-  if (i % 2 !== 0) {
+  if (i % 2 == 0) {
     text = i + "<br>";
     document.write(text);
   }
